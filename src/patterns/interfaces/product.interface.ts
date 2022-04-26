@@ -1,7 +1,7 @@
 import { ProductCardProps } from "../components/Product/ProductCard";
+import { ProductImageProps } from '../components/Product/ProductImage';
 import { ProductTitleProps } from "../components/Product/ProductTitle";
 import { ProductButtonsProps } from "../components/Product/ProductButtons";
-import { ProductImageProps } from "../components/Product/ProductImage";
 
 export interface Product {
   id: string;
