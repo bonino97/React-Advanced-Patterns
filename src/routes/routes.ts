@@ -27,7 +27,7 @@ const LazyLayout = lazy(
 const ShoppingPage = lazy(
   () =>
     import(
-      /*webpackChunkName: "ShoppingPage" */ "../patterns/pages/ShoppingPage"
+      /*webpackChunkName: "ShoppingPage" */ "../patterns/pages/ShoppingTwoPage"
     )
 );
 

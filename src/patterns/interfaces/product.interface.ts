@@ -1,5 +1,5 @@
 import { ProductCardProps } from "../components/Product/ProductCard";
-import { ProductImageProps } from '../components/Product/ProductImage';
+import { ProductImageProps } from "../components/Product/ProductImage";
 import { ProductTitleProps } from "../components/Product/ProductTitle";
 import { ProductButtonsProps } from "../components/Product/ProductButtons";
 
@@ -20,4 +20,13 @@ export interface ProductCardHOCProps {
   Title: (props: ProductTitleProps) => JSX.Element;
   Image: (props: ProductImageProps) => JSX.Element;
   Buttons: (props: ProductButtonsProps) => JSX.Element;
+}
+
+export interface OnChangeProps {
+  product: Product;
+  count: number;
+}
+
+export interface IProductInCart extends Product {
+  count: number;
 }
